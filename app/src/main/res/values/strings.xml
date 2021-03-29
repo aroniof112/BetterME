@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Better ME</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Trial</string>
+
+    <string name="start">Start Now !</string>
+    <string name="stop">Trial</string>
+    <string name="todo">title</string>
+    <string name="todo2">icon</string>
+    <string name="todo4">"image "</string>
+    <string name="todo5">image2</string>
+
+    //login
+    <string name="loginbutton">Connect</string>
+    <string name="registerbutton">Register</string>
+    <string name="ImageRun">TODO</string>
+    <string name="todoo">TODO</string>
+    //register
+    <string name="buttonback">Back</string>
+    <string name="buttonRegister">Register</string>
+    <string name="enterpassword">Enter pasword...</string>
+    <string name="enteremail">Enter email...</string>
+
+    <string name="sendServer">Send</string>
+    <string name="signOut">Sign Out</string>
+    <string name="enterWeight">Enter your weight...</string>
+    <string name="imagePlans">imagePlan</string>
+    <string name="burbees">1.Burbees</string>
+    <string name="mountain">2.Mountain Climbers</string>
+    <string name="russianTwist">3.Russian Twists</string>
+    <string name="russiantwist">TODO</string>
+    <string name="mountainclimbers">mountain</string>
+    <string name="blipeers">blippers</string>
+    <string name="enter_email">Enter email...</string>
+    <string name="enter_password">Enter password...</string>
+    <string name="main">main</string>
+    <string name="main2">TODO</string>
+    <string name="main3">TODO</string>
+    <string name="exercises">Exercises</string>
+    <string name="diet">Diet</string>
+    <string name="beginner">Beginner</string>
+    <string name="image">TODO</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

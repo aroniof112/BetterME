@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_homebg">
+
+    <LinearLayout
+        android:id="@+id/ButtonsLayout"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Space
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="157dp"
+            android:layout_height="59dp"
+            android:text="@string/start" />
+
+        <Space
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="32dp"
+            android:layout_height="14dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/trial"
+            android:layout_width="169dp"
+            android:layout_height="61dp"
+            android:text="@string/stop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Text1Layout"
+        android:layout_width="347dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonsLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo5"
+            android:src="@drawable/text_1614184368697" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/TitleLayout"
+        android:layout_width="357dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/Text1Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_menu"
+            android:contentDescription="@string/main" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="76dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo2"
+            android:src="@drawable/running" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/text_1614184042010" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="45dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_bell"
+            android:contentDescription="@string/main2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="346dp"
+        android:layout_height="351dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="362dp"
+            android:layout_height="184dp"
+            android:layout_marginEnd="18dp"
+            android:contentDescription="@string/todo4"
+            android:src="@drawable/_51f38bcd2571be8fcadd928a5f4c1a0" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="363dp"
+            android:layout_height="167dp"
+            app:srcCompat="@drawable/shoe_image"
+            android:contentDescription="@string/main3" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
